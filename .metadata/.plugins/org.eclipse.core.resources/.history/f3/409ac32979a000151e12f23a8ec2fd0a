@@ -1,0 +1,8 @@
+
+public class TestWeb {
+
+	public String helloWorld(String name){
+		return "Que onda " + name;
+	}
+	
+}

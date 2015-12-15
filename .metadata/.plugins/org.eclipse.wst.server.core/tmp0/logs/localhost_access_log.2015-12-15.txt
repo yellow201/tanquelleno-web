@@ -1,0 +1,15 @@
+127.0.0.1 - - [15/Dec/2015:11:50:48 -0600] "GET / HTTP/1.1" 404 1004
+127.0.0.1 - - [15/Dec/2015:11:50:48 -0600] "POST /TanqueLleno/services/AdminService HTTP/1.0" 200 291
+127.0.0.1 - - [15/Dec/2015:11:50:48 -0600] "POST /TanqueLleno/services/AdminService HTTP/1.0" 200 4141
+127.0.0.1 - - [15/Dec/2015:11:50:55 -0600] "GET / HTTP/1.1" 404 1004
+127.0.0.1 - - [15/Dec/2015:11:50:58 -0600] "GET /TanqueLlenoClient/sampleTestWebProxy/Result.jsp HTTP/1.1" 200 102
+127.0.0.1 - - [15/Dec/2015:11:50:58 -0600] "GET /TanqueLlenoClient/sampleTestWebProxy/Method.jsp HTTP/1.1" 200 419
+127.0.0.1 - - [15/Dec/2015:11:50:58 -0600] "GET /TanqueLlenoClient/sampleTestWebProxy/Input.jsp HTTP/1.1" 200 113
+127.0.0.1 - - [15/Dec/2015:11:50:58 -0600] "GET /TanqueLlenoClient/sampleTestWebProxy/TestClient.jsp HTTP/1.1" 200 569
+0:0:0:0:0:0:0:1 - - [15/Dec/2015:11:50:59 -0600] "GET /TanqueLlenoClient/sampleTestWebProxy/TestClient.jsp HTTP/1.1" 200 569
+0:0:0:0:0:0:0:1 - - [15/Dec/2015:11:50:59 -0600] "GET /TanqueLlenoClient/sampleTestWebProxy/Method.jsp HTTP/1.1" 200 419
+0:0:0:0:0:0:0:1 - - [15/Dec/2015:11:50:59 -0600] "GET /TanqueLlenoClient/sampleTestWebProxy/Input.jsp HTTP/1.1" 200 113
+0:0:0:0:0:0:0:1 - - [15/Dec/2015:11:50:59 -0600] "GET /TanqueLlenoClient/sampleTestWebProxy/Result.jsp? HTTP/1.1" 200 102
+0:0:0:0:0:0:0:1 - - [15/Dec/2015:11:51:05 -0600] "GET /TanqueLlenoClient/sampleTestWebProxy/Input.jsp?method=13 HTTP/1.1" 200 409
+127.0.0.1 - - [15/Dec/2015:11:51:09 -0600] "POST /TanqueLleno/services/TestWeb HTTP/1.0" 200 384
+0:0:0:0:0:0:0:1 - - [15/Dec/2015:11:51:09 -0600] "POST /TanqueLlenoClient/sampleTestWebProxy/Result.jsp HTTP/1.1" 200 120

@@ -1,0 +1,14 @@
+import jdk.nashorn.internal.ir.BinaryNode;
+
+public class TestWeb {
+
+	public String helloWorld(String name){
+		return "Que onda " + name;
+	}
+	
+	
+	
+	
+	
+	
+}

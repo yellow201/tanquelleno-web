@@ -1,0 +1,46 @@
+
+public class Test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+		Node node = new Node(1);
+		
+		printList(node);
+	}
+	
+	
+	
+	public static Node addNode(Node node, int data){
+		if(node == null){
+			return null;
+		}
+		
+		Node aux = node;
+		
+		while(aux.next != null){
+			aux = aux.next;
+		}
+		
+		aux.next = new Node(data);
+		
+		return node;
+		
+	}
+	
+	
+	public static void printList(Node node){
+		if(node == null){
+			return;
+		}
+		
+		while(node != null){
+			System.out.print(node.data + " ");
+			node = node.next;
+		}
+	
+	}
+}
